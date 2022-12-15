@@ -157,8 +157,8 @@
 <body>
     <div class="domand_rispost">
         <?php
-            foreach( $array_q as $key => $value){
-                foreach( $array_q[$key] as $key => $value  ){
+            foreach( $array_q as $chiave => $value){
+                foreach( $array_q[$chiave] as $chiave => $value  ){
                     echo $value;
                 }
             }
