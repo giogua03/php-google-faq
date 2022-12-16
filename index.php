@@ -1,6 +1,7 @@
 <?php
     $array_q =[
         
+        
             [
                 
                     'domanda' => '<h2>Come state implementando la recente decisione della Corte di giustizia dell Unione europea (CGUE) relativa al diritto all oblio?</h2>',
@@ -139,7 +140,7 @@
                 
             ],
 
-
+        
         
     ];
 
@@ -158,10 +159,9 @@
 <body>
     <div class="domand_rispost">
         <?php
-            foreach( $array_q as $chiave => $value){
-                foreach( $array_q[$chiave] as $chiave => $value  ){
-                    echo $value;
-                }
+            foreach( $array_q as $chiave ){
+                echo $chiave['domande'];
+                echo $chiave['risposte'];
             }
         ?>
 
