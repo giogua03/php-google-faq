@@ -160,8 +160,8 @@
     <div class="domand_rispost">
         <?php
             foreach( $array_q as $chiave ){
-                echo $chiave['domande'];
-                echo $chiave['risposte'];
+                echo $chiave['domanda'];
+                echo $chiave['risposta'];
             }
         ?>
 
