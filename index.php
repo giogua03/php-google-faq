@@ -1,6 +1,6 @@
 <?php
     $array_q =[
-        [
+        
             [
                 
                     'domanda' => '<h2>Come state implementando la recente decisione della Corte di giustizia dell Unione europea (CGUE) relativa al diritto all oblio?</h2>',
@@ -140,7 +140,7 @@
             ],
 
 
-        ],
+        
     ];
 
 
